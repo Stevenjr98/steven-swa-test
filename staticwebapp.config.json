@@ -1,13 +1,13 @@
 {
     "routes":[
         {
-            "route":"/*",
+            "route": "/api/*",
             "methods":["GET","POST","DELETE"],
             "status_code":200
             "allowedRoles":["anonymous"]
         },
         {
-            "route":"/*",
+            "route": "/api/*",
             "methods":["OPTIONS"],
             "allowedRoles":[]
         }
