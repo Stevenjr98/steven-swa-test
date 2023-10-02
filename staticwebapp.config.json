@@ -1,18 +1,14 @@
 {
-    "routes":[
-        {
-            "route": "/api/*",
-            "methods":["GET","POST","DELETE"],
-            "status_code":200
-            "allowedRoles":["anonymous"]
-        },
-        {
-            "route": "/api/*",
-            "methods":["OPTIONS"],
-            "allowedRoles":[]
-        }
-    ]
-    "navigationFallback": {
-        "rewrite": "/index.html"
+    "routes": [
+    {
+        "route": "/api/*",
+        "methods": ["GET", "POST", "PUT", "DELETE"],
+        "allowedRoles": ["anonymous"]
+    },
+    {
+        "route": "/api/*",
+        "methods": ["OPTIONS"],
+        "allowedRoles": []
     }
+            ]
 }
