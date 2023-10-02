@@ -2,8 +2,8 @@
     "routes":[
         {
             "route":"/*",
-            "methods":["OPTION","POST"],
-            "status_code":404
+            "methods":["GET","POST","DELETE"],
+            "status_code":200
         }
     ]
     "navigationFallback": {
