@@ -2,7 +2,7 @@
     "routes":[
         {
             "route":"/*",
-            "methods":[OPTION],
+            "methods":["OPTION","POST"],
             "status_code":404
         }
     ]
