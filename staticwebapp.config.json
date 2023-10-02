@@ -4,11 +4,12 @@
             "route":"/*",
             "methods":["GET","POST","DELETE"],
             "status_code":200
+            "allowedRoles":["anonymous"]
         },
         {
             "route":"/*",
             "methods":["OPTIONS"],
-            "allowedRoles":""
+            "allowedRoles":[]
         }
     ]
     "navigationFallback": {
