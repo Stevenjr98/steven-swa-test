@@ -1,4 +1,11 @@
 {
+    "routes":[
+        {
+            "route":"/*",
+            "methods":[OPTION],
+            "status_code":404
+        }
+    ]
     "navigationFallback": {
         "rewrite": "/index.html"
     }
