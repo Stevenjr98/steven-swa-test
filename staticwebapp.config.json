@@ -1,16 +1,9 @@
-
 {
-"routes": [
-{
-"route": "/*",
-"methods": ["GET", "POST", "PUT", "DELETE"],
-"statusCode":200
-"allowedRoles": ["anonymous"]
-},
-{
-"route": "/*",
-"methods": ["OPTIONS"],
-"allowedRoles": []
-}
-]
+  "routes": [
+    {
+      "route": "/*",
+      "methods": ["OPTIONS"],
+      "allowedRoles": ["admin"]
+    }
+  ]
 }
